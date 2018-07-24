@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:padding="4dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" android:layout_marginBottom="4dp" android:onClick="onOurServiceClick">
+
+        <ImageView
+            android:id="@+id/imageview_service"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/service2" />
+
+        <Button
+            android:id="@+id/ourservice_button_service"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="#44000000"
+            android:gravity="center"
+            android:text="Our Services"
+            android:textAlignment="gravity" />
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>
